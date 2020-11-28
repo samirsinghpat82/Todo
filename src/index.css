@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,207 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  font-family:"Josefin Sans","Arial Narrow",Arial,serif;
+
+}
+
+.main_div {
+  width: 100%;
+  height : 100vh;
+  background: #A9CCE3;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+
+.main_div1 {
+  width: 100%;
+  height : 100vh;
+  background-image: url("https://cdn.mos.cms.futurecdn.net/6t8Zh249QiFmVnkQdCCtHK.jpg");
+  background-color: #cccccc;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.main_div2 {
+  width: 100%;
+  height : 100vh;
+  background-image: url("https://i.pinimg.com/originals/af/8d/63/af8d63a477078732b79ff9d9fc60873f.jpg");
+  background-color: #cccccc;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.main_div3 {
+  width: 100%;
+  height : 100vh;
+  background-image: url("https://cdn.pizap.com/pizapfiles/images/photo_backgrounds_textures_app04.jpg");
+  background-color: #cccccc;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.main_div4 {
+  width: 100%;
+  height : 100vh;
+  background-image: url("https://img.freepik.com/free-photo/empty-wooden-table-with-smoke-float-up-dark-background_68495-135.jpg?size=626&ext=jpg");
+  background-color: #cccccc;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.center_div {
+  width:25%;
+  height:70vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius:15px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h1{
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 50px;
+  margin-bottom: 30px;
+  min-width: 64px;
+  box-sizing: border-box;
+
+}
+
+input {
+  text-align: center;
+  height: 30px;
+  border:none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width:60%;
+  border-bottom: 2px solid #8566aa;
+  outline:none;
+  margin-right:20px;
+}
+
+.newBtn {
+  width: 50px;
+ height: 55px;
+ background-color: #16a085 !important;
+ color: white !important;
+ border-radius: 50% !important;
+}
+
+.newBtn:hover {
+  color: #16a085 !important;
+  background: white !important;
+}
+
+.MuiSvgicon-root {
+  width :0 2rem !important;
+  height: 2rem !important;
+}
+
+ol {
+  margin-top: 30px;
+}
+
+ol li {
+  padding-left:0px;
+  text-align:left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+  life-style:none;
+}
+
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.todo_style .deleteIcon {
+  width: 25px;
+  height: 25px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+background-color: #8566aa;
+border-radius: 50%;
+margin: 0 15px 0 35px;
+padding:5px;
+color:aliceblue;
+
+
+}
+
+.todo_style .deleteIcon:hover {
+  background-color: transparent;
+  color:crimson;
+
+}
+
+.todo_style .fa-times:hover .list_style {
+  color:crimson;
+}
+
+@media (max-width:768px) {
+  .center_div {
+    width:55%;
+
+  }
+
+
+.todo_style .fa-times {
+  margin: 0 15px 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  margin-left: 5px;
+  min-height: 40px;
+  width: 40px;
+  color: #fff;
+  font-size:30px;
+}
 }
